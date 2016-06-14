@@ -1,0 +1,18 @@
+﻿body{
+    background-color: #00802D;
+}
+
+#game table{
+    text-align: center;
+    margin: auto;
+}
+
+#desk table tr td{
+    width: 150px;
+    height: 150px;
+    background-color: #6DAC83;
+}
+
+#desk, #menu{
+    margin: 50px;
+}

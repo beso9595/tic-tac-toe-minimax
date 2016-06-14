@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Tic Tac Toe - MiniMax</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/events.js"></script>
+</head>
+<body>
+    <div id="game">
+        <table border="0">
+            <tr>
+                <td>
+                    <div id="desk">
+                        <table border="0">
+                            <tr>
+                                <td>
+                                    <img src="img/E.png" id="box_1"/>
+                                </td>
+                                <td>
+                                    <img src="img/E.png" id="box_2"/>
+                                </td>
+                                <td>
+                                    <img src="img/E.png" id="box_3"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="img/E.png" id="box_4"/>
+                                </td>
+                                <td>
+                                    <img src="img/E.png" id="box_5"/>
+                                </td>
+                                <td>
+                                    <img src="img/E.png" id="box_6"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="img/E.png" id="box_7"/>
+                                </td>
+                                <td>
+                                    <img src="img/E.png" id="box_8"/>
+                                </td>
+                                <td>
+                                    <img src="img/E.png" id="box_9"/>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+                <td>
+                    <div id="menu">
+                        <table border="0">
+                            <tr>
+                                <th colspan="2">
+                                    Who's first?
+                                </th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="radio" name="first" value="computer" checked="checked"/>Computer
+                                </td>
+                                <td>
+                                    <input type="radio" name="first" value="me" />Me
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="button" name="start" value="Start" />
+                                </td>
+                                <td>
+                                    <input type="button" name="new" value="New" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <b>Whose turn?</b>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <b id="turn">-</b>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!---->
+    <div id="test">
+        <script>
+            //
+        </script>
+    </div>
+</body>
+</html>
